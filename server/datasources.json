@@ -1,0 +1,22 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongodb": {
+    "url": "mongodb://hackerspace:admin123@ds061354.mlab.com:61354/hackerspace",
+    "name": "mongodb",
+    "defaultForType": "mongodb",
+    "connector": "loopback-connector-mongodb"
+  },
+  "local": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "hackerspace",
+    "password": "",
+    "name": "local",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
