@@ -14,7 +14,8 @@
     ]
   },
   "User": {
-    "dataSource": "local"
+    "dataSource": "local",
+    "public": false
   },
   "AccessToken": {
     "dataSource": "local",
@@ -31,5 +32,13 @@
   "Role": {
     "dataSource": "local",
     "public": false
+  },
+  "user": {
+    "dataSource": "local"
+  },
+  "project": {
+    "dataSource": "local"
   }
+  
+  
 }
