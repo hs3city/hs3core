@@ -21,6 +21,12 @@
     "owner": {
       "type": "belongsTo",
       "model": "user"
+    },
+    "members": {
+      "type": "hasMany",
+      "model": "user",
+      "foreignKey": "userId",
+      "through": "projectMembers"
     }
   },
   "acls": [],

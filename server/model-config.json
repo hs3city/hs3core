@@ -38,7 +38,9 @@
   },
   "project": {
     "dataSource": "local"
+  },
+  "projectMembers": {
+    "dataSource": "local",
+    "public": true
   }
-  
-  
 }

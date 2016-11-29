@@ -4,6 +4,14 @@
   "idInjection": true,
   "properties": {},
   "validations": [],
+  "relations": {
+    "projects": {
+      "type": "hasMany",
+      "model": "project",
+      "foreignKey": "projectId",
+      "through": "projectMembers"
+    }
+  },
   "acls": [
     {
       "accessType": "READ",
